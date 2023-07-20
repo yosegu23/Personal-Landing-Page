@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/svg-with-js.min.css" integrity="sha512-FTnGkh+EGoZdexd/sIZYeqkXFlcV3VSscCTBwzwXv1IEN5W7/zRLf6aUBVf2Ahdgx3h/h22HNzaoeBnYT6vDlA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css">
     <title>Yosegu</title>
 </head>
@@ -23,7 +24,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#timeline-Journey">Journey</a>
           </li>
           <li class="nav-item">
             <a class="nav-brand" href="#">
@@ -44,46 +45,44 @@
     <img src="/Assets/logo.svg" alt="Logo" class="logo-splashscreen">
   </div>
   <div class="social-media-menu">
-    <a href="https://web.facebook.com/yosegu23" class="social-icon"><img src="Assets/facebook.svg" class="icon" alt="Facbook"></a>
-    <a href="https://www.instagram.com/yosegu23/" class="social-icon"><img src="Assets/instagram.svg" class="icon" alt="Instagram"></a>
-    <a href="#" class="social-icon"><img src="Assets/twitter.svg" class="icon" alt="Twitter"></a>
-    <a href="https://github.com/yosegu23?tab=overview&from=2023-05-01&to=2023-05-31" class="social-icon"><img src="Assets/github.svg" class="icon" alt="Github"></a>
-    <a href="#" class="social-icon"><img src="Assets/linkedin-in.svg" class="icon" alt="Linkedin"></a>
+    <a href="https://web.facebook.com/yosegu23" class="social-icon" target="_blank"><img src="Assets/facebook.svg" alt="Facbook"></a>
+    <a href="https://www.instagram.com/yosegu23/" class="social-icon" target="_blank"><img src="Assets/instagram.svg" alt="Instagram"></a>
+    <a href="#" class="social-icon" target="_blank"><img src="Assets/twitter.svg" alt="Twitter"></a>
+    <a href="https://github.com/yosegu23?tab=overview&from=2023-05-01&to=2023-05-31" class="social-icon" target="_blank"><img src="Assets/github.svg" alt="Github"></a>
+    <a href="#" class="social-icon" target="_blank"><img src="Assets/linkedin-in.svg" alt="Linkedin"></a>
   </div>
+
   <section class="hero">
-    <div class="container">
-      <div class="row pb-5">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col col-md-4">
-          <div class="col col-md-6 center-content hex pb-5">
-            <img src="/Assets/avatar.svg" alt="Avatar" class="avatar pb-5">
+          <div class="col col-md-6 center-content hex mx-auto">
+            <img src="/Assets/avatar.svg" alt="Avatar" class="avatar">
           </div>
         </div>
-        <div class="col-lg-7 pb-10">
-          <div class="pt-3 bigText">
+        <div class="col-lg-7 p-auto">
+          <div class="bigText">
             Yopi Septian
           </div>
           <div class="midText">
-            Full Stack Developer
+            I'm a
           </div>
+          <div class="dynamic-text"></div>
           <div class="smallText">
             I'm a Web/Mobile Developer & UI/UX Design in indonesia, I've been designed, develop, a maintenance webs apps. I'm very passionate and dedicated with to my works.
           </div>
           <div class="buttons pt-3">
             <a href="#" class="btn btn-dark">My Journey</a>
-            <a href="#" class="btn btn-outline-secondary">My Resume</a>
+            <a href="#" class="btn btn-light">My Resume</a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="script.js"></script>
-  <script>
-    // JavaScript to hide the splash screen after the website loads
-    window.addEventListener("load", function () {
-        const splashScreen = document.querySelector(".splash-screen");
-        splashScreen.classList.add("hide");
-    });
-</script>
 </body>
 </html>
